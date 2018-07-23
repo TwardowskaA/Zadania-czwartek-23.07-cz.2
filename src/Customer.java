@@ -26,12 +26,10 @@ public class Customer extends Person {
     public void setWydatki(int wydatki) {
         this.wydatki = wydatki;
     }
-
-    public void getInfo() {
-        System.out.println(getImie());
-        System.out.println(getNazwisko());
-        System.out.println(getMiasto());
-        System.out.println(getWydatki());
+@Override
+    public void printInfo() {
+        printInfo();
+        System.out.println(miasto + " " + wydatki);
 
     }
 }

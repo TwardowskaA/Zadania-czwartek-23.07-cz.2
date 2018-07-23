@@ -9,6 +9,5 @@ public class Test {
         customer.getInfo();
         customer1.getInfo();
 
-
     }
 }

@@ -35,4 +35,10 @@ public class Employee extends Person {
     public void setWyplata(double wyplata) {
         this.wyplata = wyplata;
     }
+
+    @Override
+    public void printInfo(){
+        printInfo();
+        System.out.println(pesel + " " + telefon);
+    }
 }

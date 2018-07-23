@@ -23,4 +23,8 @@ public class Person {
     public void setNazwisko(String nazwisko) {
         this.nazwisko = nazwisko;
     }
+
+    public void printInfo(){
+        System.out.println(imie + " " + nazwisko);
+    }
 }
