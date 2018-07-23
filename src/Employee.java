@@ -38,7 +38,7 @@ public class Employee extends Person {
 
     @Override
     public void printInfo(){
-        printInfo();
+        super.printInfo();
         System.out.println(pesel + " " + telefon);
     }
 }

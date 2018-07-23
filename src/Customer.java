@@ -28,7 +28,7 @@ public class Customer extends Person {
     }
 @Override
     public void printInfo() {
-        printInfo();
+        super.printInfo();
         System.out.println(miasto + " " + wydatki);
 
     }
