@@ -5,6 +5,13 @@ public class Employee extends Person {
 
     private double wyplata;
 
+    public Employee(String imie, String nazwisko, String pesel, String telefon, double wyplata) {
+        super(imie, nazwisko);
+        this.pesel = pesel;
+        this.telefon = telefon;
+        this.wyplata = wyplata;
+    }
+
     public String getPesel() {
         return pesel;
     }

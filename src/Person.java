@@ -3,6 +3,11 @@ public class Person {
     private String imie;
     private String nazwisko;
 
+    public Person(String imie, String nazwisko) {
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+    }
+
     public String getImie() {
         return imie;
     }

@@ -5,8 +5,7 @@ public class Customer extends Person {
     private int wydatki;
 
     public Customer(String imie, String nazwisko, String miasto, int wydatki) {
-        setImie(imie);
-        setNazwisko(nazwisko);
+        super(imie, nazwisko);
         this.miasto = miasto;
         this.wydatki = wydatki;
     }
